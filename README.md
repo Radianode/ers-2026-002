@@ -127,7 +127,7 @@ sessions, each new session should get:
 
 See [CITATION.cff](CITATION.cff), or cite directly:
 
-> Ogunjemilua, O. (2026). *ERS-2026-002: Measurement Chain Readiness for Instrument-Grade Energy Characterisation of Cellular IoT Devices.* Radianode Ltd.
+> Ogunjemilua, O.A. (2026). *ERS-2026-002: Measurement Chain Readiness for Instrument-Grade Energy Characterisation of Cellular IoT Devices.* Radianode Ltd.
 
 ## Authors
 
