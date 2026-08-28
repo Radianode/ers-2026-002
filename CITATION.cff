@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository or the ERS-2026-002 publication, please cite it as below."
+title: "ERS-2026-002: Measurement Chain Readiness for Instrument-Grade Energy Characterisation of Cellular IoT Devices"
+version: "1.0"
+date-released: 2026-08-28
+authors:
+  - family-names: "Ogunjemilua"
+    given-names: "Oluwanifemi Adelana"
+    affiliation: "Radianode Ltd"
+    orcid: "https://orcid.org/0009-0003-5205-7738"
+repository-code: "https://github.com/Radianode/ers-2026-002"
+url: "https://radianode.com/engineering-insights"
+license:
+  - MIT
+  - CC-BY-4.0
+type: software

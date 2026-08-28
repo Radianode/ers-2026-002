@@ -33,7 +33,7 @@
 | Field | Value |
 |---|---|
 | Model | **Mastech MS8268** — confirmed via a front-panel photograph, 2026-08-28. Resolves the earlier naming mismatch: the published report's Investigation Scope table names this instrument "Mastech MS8268," while this registry previously carried only the generic "Mastech DMM" per the equipment inventory it was compiled from. Photographic confirmation ties the two to the same unit. |
-| Serial number | **Not established.** Not visible from the front panel; would require checking the battery compartment or rear of the unit. |
+| Serial number | **Not pursued** — decided by Radianode, 2026-08-28. The confirmed model (Mastech MS8268, above) is sufficient identification for this registry's purpose. |
 | Firmware | Not applicable / not established. |
 | Last calibration date | **Not established.** |
 ## Oscilloscope (Keysight DSOX1102G)
@@ -46,7 +46,7 @@
 ---
 ## What's needed to complete this file
 For each **Not established** field above, someone at Radianode needs to physically:
-1. Check the instrument's serial plate/label (usually rear or bottom panel) — distinct from any lab asset tag. (Remaining: Anritsu serial; DMM serial, from the battery compartment or rear.)
+1. Check the instrument's serial plate/label (usually rear or bottom panel) — distinct from any lab asset tag. (Remaining: Anritsu serial. The DMM serial is not being pursued — model number is sufficient, decided 2026-08-28.)
 2. Check the instrument's own firmware/version display, typically under an "About," "System," or "Info" menu. (Remaining: PPK2 on-device firmware; Keysight scope firmware, via Help → About rather than the rear label.)
 3. Check for a calibration sticker (often shows last-cal and next-due dates) or pull the instrument's calibration certificate/record if Radianode maintains one. (Remaining: Anritsu; DMM; Keysight scope. The PPK2 is factory-calibrated only with no field-accessible date, and HP 6611C's precise date is now recorded as 5 December 2025.)
 

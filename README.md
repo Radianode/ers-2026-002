@@ -137,8 +137,11 @@ sessions, each new session should get:
 - **Still open, pending a physical check by Radianode** (not inferred or
   assumed — see `instruments/REGISTRY.md`'s "What's needed to complete this
   file" section): PPK2 on-device firmware; Anritsu serial number and
-  calibration date; DMM serial number and calibration date; Keysight
-  oscilloscope firmware version and calibration date.
+  calibration date; DMM calibration date; Keysight oscilloscope firmware
+  version and calibration date.
+- **Decided (2026-08-28):** the bench DMM's serial number will not be
+  pursued — the model (Mastech MS8268, confirmed above) is sufficient
+  identification for this registry's purpose.
 - **Resolved by correlation (2026-08-28):** `data/measured-components.csv`'s
   reference load measurement (216–217 Ω) is dated 2026-08-26, correlated
   with `data/photos/BC4_ppk2-hat-attach_20260826.jpg` — the dated photo of
@@ -153,3 +156,15 @@ sessions, each new session should get:
   source-meter setpoint consistency across all three captures was not
   confirmed, so they are not presented as clean repeats in the published
   report or in any figure here.
+
+## Citation
+
+See [CITATION.cff](CITATION.cff), or cite directly:
+
+> Ogunjemilua, O. (2026). *ERS-2026-002: Measurement Chain Readiness for Instrument-Grade Energy Characterisation of Cellular IoT Devices.* Radianode Ltd.
+
+## Authors
+
+**Principal Engineer:** Oluwanifemi Ogunjemilua ([ORCID: 0009-0003-5205-7738](https://orcid.org/0009-0003-5205-7738))
+**Developed under:** Radianode Ltd
+**Website:** [https://radianode.com](https://radianode.com)
