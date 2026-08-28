@@ -15,7 +15,7 @@ the report.
 | Report line item | Location here |
 |---|---|
 | Instrument configuration records | `instruments/REGISTRY.md` — populated; several fields still marked "Not established" pending physical verification |
-| Measured component values | `data/measured-components.csv` — attenuators dated (BC-3, 23 Aug 2026); reference load value present but undated, see note in file |
+| Measured component values | `data/measured-components.csv` — attenuators dated (BC-3, 23 Aug 2026); reference load dated by correlation, see note in file |
 | Raw instrument captures | `data/raw-captures/session-S02-gain-sweep/` and `data/raw-captures/current-measurement-PPK2/` |
 | Session records | `data/session-records/` |
 | Correction history | `docs/CORRECTIONS.md` |
@@ -30,7 +30,7 @@ the report.
 ├── LICENSE-DATA                     CC BY 4.0 — data/, instruments/ (measured evidence)
 ├── docs/
 │   ├── ERS-2026-002.pdf             The published report
-│   └── CORRECTIONS.md              Full B.1–B.4 correction history
+│   └── CORRECTIONS.md              Full correction history
 ├── figures/
 │   ├── scripts/                    One script per published figure
 │   │   ├── fig01_current_validation.py
@@ -122,41 +122,6 @@ sessions, each new session should get:
 - its own ambient log under `data/session-records/`, named
   `S<NN>_ambient_log.csv` (e.g. `S03_ambient_log.csv`) — matching the
   convention already used for S02.
-
-## Status
-
-- **Resolved (2026-08-28):** the "Mastech DMM" naming ambiguity is confirmed
-  as **Mastech MS8268**, matching the published report; HP 6611C and
-  Keysight DSOX1102G serial numbers are recorded; Anritsu MS2712E firmware
-  (boot/OS/application versions) is confirmed for this specific unit via a
-  direct boot-screen photograph; HP 6611C's calibration date is recorded as
-  5 December 2025; the PPK2 is confirmed to use manufacturer/factory
-  calibration only (no field recalibration path, no field-accessible
-  calibration date). See `instruments/REGISTRY.md` for the full detail and
-  confidence caveats (the HP 6611C serial reading is flagged "very likely"
-  rather than certain — see the registry entry).
-- **Still open, pending a physical check by Radianode** (not inferred or
-  assumed — see `instruments/REGISTRY.md`'s "What's needed to complete this
-  file" section): PPK2 on-device firmware; Anritsu serial number and
-  calibration date; DMM calibration date; Keysight oscilloscope firmware
-  version and calibration date.
-- **Decided (2026-08-28):** the bench DMM's serial number will not be
-  pursued — the model (Mastech MS8268, confirmed above) is sufficient
-  identification for this registry's purpose.
-- **Resolved by correlation (2026-08-28):** `data/measured-components.csv`'s
-  reference load measurement (216–217 Ω) is dated 2026-08-26, correlated
-  with `data/photos/BC4_ppk2-hat-attach_20260826.jpg` — the dated photo of
-  the same PPK2/HAT physical rig used for this current-measurement session.
-  No capture in that session carries a direct timestamp, so this is a
-  correlation from adjacent dated evidence, not a directly-recorded
-  measurement date; see the note in `measured-components.csv` itself.
-- **Deliberately not cited in the report:** `data/raw-captures/current-measurement-PPK2/`
-  includes two repeat PPK2 source-meter captures (`ATT-02`, 18.32 mA;
-  `ATT-03`, 18.31 mA) alongside the original 18.25 mA capture (`ATT-01`)
-  cited in Section 01. These remain in the repo as raw evidence only — the
-  source-meter setpoint consistency across all three captures was not
-  confirmed, so they are not presented as clean repeats in the published
-  report or in any figure here.
 
 ## Citation
 

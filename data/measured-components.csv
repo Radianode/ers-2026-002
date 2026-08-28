@@ -1,4 +1,4 @@
 component,nominal_value,measured_value,measurement_date,source
 Attenuator 1,20.00 dB,20.28 dB,2026-08-23,"BC-3 characterisation session; date inferred from BC3_attenuators-and-divider_20260823.jpg filename, not a calibration certificate"
 Attenuator 2,30.00 dB,30.15 dB,2026-08-23,"BC-3 characterisation session; date inferred from BC3_attenuators-and-divider_20260823.jpg filename, not a calibration certificate"
-Reference load,220 ohm (+/-5%),216-217 ohm,2026-08-26 (correlated),"Value from ERS-2026-002 Section 01 table (Mastech MS8268-measured), evidenced in data/raw-captures/current-measurement-PPK2/. No capture in that session carries a direct timestamp; date correlated per Radianode's 2026-08-28 instruction with data/photos/BC4_ppk2-hat-attach_20260826.jpg, the dated photo of the same PPK2/HAT physical rig used for this current-measurement session. This is a correlation from adjacent dated evidence, not a directly-recorded measurement date or calibration certificate."
+Reference load,220 ohm (+/-5%),216-217 ohm,2026-08-26 (correlated),"Value from ERS-2026-002 Section 01; date correlated from BC4_ppk2-hat-attach_20260826.jpg, not a calibration certificate"
