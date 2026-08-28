@@ -1,0 +1,4 @@
+component,nominal_value,measured_value,measurement_date,source
+Attenuator 1,20.00 dB,20.28 dB,2026-08-23,"BC-3 characterisation session; date inferred from BC3_attenuators-and-divider_20260823.jpg filename, not a calibration certificate"
+Attenuator 2,30.00 dB,30.15 dB,2026-08-23,"BC-3 characterisation session; date inferred from BC3_attenuators-and-divider_20260823.jpg filename, not a calibration certificate"
+Reference load,220 ohm (+/-5%),216-217 ohm,NOT ESTABLISHED,"Value from ERS-2026-002 Section 01 table (Mastech MS8268-measured); no source ties this measurement to a specific date. Confirm with Radianode before treating this as dated."

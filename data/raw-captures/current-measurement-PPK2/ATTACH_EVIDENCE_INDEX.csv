@@ -1,0 +1,6 @@
+Artifact,Evidence role,Visible values / metadata
+ATT-01_PPK2_source_meter_18p25mA_10s.png,PPK2 Source Meter measurement,18.25 mA average; 18.66 mA max; 182.47 mC; 10.00 s
+ATT-02_PPK2_source_meter_repeat_18p32mA_10s.png,PPK2 Source Meter repeat,18.32 mA average; 18.71 mA max; 183.20 mC; 10.00 s; 4000 mV setpoint visible
+ATT-03_PPK2_source_meter_repeat_18p31mA_10s.png,PPK2 Source Meter repeat,18.31 mA average; 18.71 mA max; 183.09 mC; 10.00 s; 4000 mV setpoint visible
+ATT-04_PPK2_ampere_meter_18p14mA_10s.png,PPK2 Ampere Meter measurement,18.14 mA average; 18.52 mA max; 181.44 mC; 10.00 s
+ATT-05_HP6611C_supply_indication_18p27mA.png,Independent supply indication,HP 6611C display shows 4.006 V and 0.01827 A (18.27 mA); CV mode visible

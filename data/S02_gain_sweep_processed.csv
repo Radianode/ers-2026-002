@@ -1,0 +1,6 @@
+configured_tx_gain_dB,measured_level_dBm,configured_step_dB,measured_step_dB
+60,-80.51,,
+55,-85.58,5.00,5.06
+50,-90.84,5.00,5.26
+45,-95.04,5.00,4.20
+40,-99.78,5.00,4.74
