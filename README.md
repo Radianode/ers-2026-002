@@ -2,7 +2,7 @@
 
 Reproducibility and traceability repository for **ERS-2026-002 v1.0**,
 "Measurement Chain Readiness for Instrument-Grade Energy Characterisation of
-Cellular IoT Devices."
+Cellular IoT Devices." Status: Published · [Read the publication (PDF)](docs/ERS-2026-002.pdf)
 
 Referenced from the report's Reproducibility Statement:
 `github.com/radianode/ers-2026-002`
@@ -29,6 +29,7 @@ the report.
 ├── LICENSE                          MIT — figures/scripts/ (code)
 ├── LICENSE-DATA                     CC BY 4.0 — data/, instruments/ (measured evidence)
 ├── docs/
+│   ├── ERS-2026-002.pdf             The published report
 │   └── CORRECTIONS.md              Full B.1–B.4 correction history
 ├── figures/
 │   ├── scripts/                    One script per published figure
