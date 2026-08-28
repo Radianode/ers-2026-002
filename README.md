@@ -128,20 +128,24 @@ sessions, each new session should get:
   as **Mastech MS8268**, matching the published report; HP 6611C and
   Keysight DSOX1102G serial numbers are recorded; Anritsu MS2712E firmware
   (boot/OS/application versions) is confirmed for this specific unit via a
-  direct boot-screen photograph. See `instruments/REGISTRY.md` for the full
-  detail and confidence caveats (the HP 6611C serial reading is flagged
-  "very likely" rather than certain — see the registry entry).
+  direct boot-screen photograph; HP 6611C's calibration date is recorded as
+  5 December 2025; the PPK2 is confirmed to use manufacturer/factory
+  calibration only (no field recalibration path, no field-accessible
+  calibration date). See `instruments/REGISTRY.md` for the full detail and
+  confidence caveats (the HP 6611C serial reading is flagged "very likely"
+  rather than certain — see the registry entry).
 - **Still open, pending a physical check by Radianode** (not inferred or
   assumed — see `instruments/REGISTRY.md`'s "What's needed to complete this
-  file" section): PPK2 on-device firmware and calibration date; HP 6611C's
-  precise calibration date (currently only "2025"); Anritsu serial number
-  and calibration date; DMM serial number and calibration date; Keysight
+  file" section): PPK2 on-device firmware; Anritsu serial number and
+  calibration date; DMM serial number and calibration date; Keysight
   oscilloscope firmware version and calibration date.
-- **Still open:** `data/measured-components.csv`'s reference load
-  measurement (216–217 Ω) has no confirmed date. The attenuators are dated
-  from the BC-3 photo filename (23 Aug 2026); nothing ties the reference
-  load measurement to that same session, so its date is not assumed to
-  match.
+- **Resolved by correlation (2026-08-28):** `data/measured-components.csv`'s
+  reference load measurement (216–217 Ω) is dated 2026-08-26, correlated
+  with `data/photos/BC4_ppk2-hat-attach_20260826.jpg` — the dated photo of
+  the same PPK2/HAT physical rig used for this current-measurement session.
+  No capture in that session carries a direct timestamp, so this is a
+  correlation from adjacent dated evidence, not a directly-recorded
+  measurement date; see the note in `measured-components.csv` itself.
 - **Deliberately not cited in the report:** `data/raw-captures/current-measurement-PPK2/`
   includes two repeat PPK2 source-meter captures (`ATT-02`, 18.32 mA;
   `ATT-03`, 18.31 mA) alongside the original 18.25 mA capture (`ATT-01`)
