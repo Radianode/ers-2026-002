@@ -14,7 +14,7 @@ the report.
 
 | Report line item | Location here |
 |---|---|
-| Instrument configuration records | `instruments/REGISTRY.md` — populated; several fields still marked "Not established" pending physical verification |
+| Instrument configuration records | `instruments/REGISTRY.md` — several fields marked "Not established" |
 | Measured component values | `data/measured-components.csv` — attenuators dated (BC-3, 23 Aug 2026); reference load dated by correlation, see note in file |
 | Raw instrument captures | `data/raw-captures/session-S02-gain-sweep/` and `data/raw-captures/current-measurement-PPK2/` |
 | Session records | `data/session-records/` |

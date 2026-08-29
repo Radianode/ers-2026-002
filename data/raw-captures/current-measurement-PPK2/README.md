@@ -1,7 +1,7 @@
 # PPK2 Current-Measurement Evidence — ERS-2026-002
 
-These are the original screen/photo captures uploaded in the conversation and
-materialized without redrawing or altering their measurement content.
+These are the original screen/photo captures for the current-measurement
+claims, unaltered from source.
 
 ## Primary evidence for the current-measurement claims
 
@@ -41,6 +41,3 @@ derived/reference quantities, not values that need to appear on a PPK2 screen.
 Likewise, the 0.22% figure is calculated from 18.14 mA measured versus
 18.18 mA theoretical:
 (18.18 - 18.14) / 18.18 = 0.22%.
-
-Recommended GitHub location:
-`evidence/ers-2026-002/current-measurement/`
